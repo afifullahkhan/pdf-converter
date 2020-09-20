@@ -1,0 +1,51 @@
+
+@media only screen and (min-width: 768px) {
+    .text{
+        font-size: 1.4rem;
+        font-weight: 300;
+        margin-top: -0.8rem;
+    }
+    h1{
+        font-size: 1.3rem;
+    }
+    .divider{
+        border-bottom:1px solid grey;
+    }
+    .convert{
+        background-color: #F5F5F5;
+    }
+    .convertheading{
+        padding-top: 3.5rem;
+        padding-bottom: 2.5rem;
+    }
+    
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media only screen and (max-width: 767px) {
+    .text{
+        font-size: 1.4rem;
+        font-weight: 300;
+        margin-top: -0.8rem;
+    }
+    .images{
+        overflow: hidden !important;
+    }
+    h1{
+        font-size: 1.3rem;
+    }
+    .divider{
+        border-bottom:1px solid grey;
+    }
+    .convert{
+        background-color: #F5F5F5;
+        overflow: hidden;
+    }
+    .convertheading{
+        padding-top: 3.5rem;
+        padding-bottom: 2.5rem;
+    }
+    
+  }
+
+

@@ -1,0 +1,33 @@
+@media only screen and (min-width: 768px) {
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .main{
+        align-content: center !important;
+        align-self: start !important;
+        overflow: hidden;
+    
+    .textarea{
+        font-size:0.9rem;
+        display: flex;
+        text-align: start;
+        margin-top: 0.5rem;
+    }
+    .texthead{
+        font-size:1rem;
+        font-weight: 500;
+        color: black;
+        display: flex;
+        margin-top: 0.5rem;
+    }
+    .text{
+        font-weight: 100;
+        font-size:0.9rem;
+        color: black;
+        display: flex;
+        margin-top: 0.5rem;
+    }
+}
+}
