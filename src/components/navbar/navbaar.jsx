@@ -29,7 +29,7 @@ const Example = (props) => {
 
   return (
     <div className={style.navbar_border}>
-      <Navbar color="white"  expand="md" className={style.navbarset}> 
+      <Navbar color="white" light expand="md" className={style.navbarset}> 
         <NavbarBrand href="/"><img src={Logo} alt="website logo" /></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

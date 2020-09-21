@@ -39,8 +39,8 @@ const Main=()=>{
             <br/>
             <br/>
             </Container>
-            <div className={style.divider}></div>
-            <br/>
+<hr/>            
+<br/>
              <br/>
              <Container className={style.images}>
                  <Row>
@@ -55,8 +55,10 @@ const Main=()=>{
                  <br/>
              </Container>
              <br/>
+             <div className={style.convert}>
+             <Container>
              <Row className={style.convert}>
-                 <Container>
+                 
                  <h3 className={style.convertheading}>How To Convert PDF To Word</h3>
                  <Col sm={12}>
                     <Convert/>
@@ -65,15 +67,19 @@ const Main=()=>{
                  <br/>
                  <a href="#">Show All</a>
                  <br/>
-                 <br/>
-                 </Container>       
+                 <br/>       
              </Row>
-            
-             <Row>
+             
+             </Container>
+             </div>
+            <div className="container-fluid">
+            <Row>
                  <Col sm={12}>
                     <Footer/>
                  </Col>
              </Row>
+            </div>
+             
                   
         </div>
     )

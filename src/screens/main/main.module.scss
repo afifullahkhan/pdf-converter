@@ -13,6 +13,10 @@
     }
     .convert{
         background-color: #F5F5F5;
+        // align-self: center;
+        // align-content: center;
+        // text-align: center;
+        justify-content: center;
     }
     .convertheading{
         padding-top: 3.5rem;
@@ -40,6 +44,7 @@
     .convert{
         background-color: #F5F5F5;
         overflow: hidden;
+        justify-content: center;
     }
     .convertheading{
         padding-top: 3.5rem;

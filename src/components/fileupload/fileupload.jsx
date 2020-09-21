@@ -17,13 +17,8 @@ const Fileupload=()=>{
                 <img src={image} className={style.image}/>
                 <br/>
                 <br/>
-                <ButtonDropdown  toggle={toggle}>
-                <Button id="caret" color="light" className={style.buttoncolor}>CHOOSE FILES</Button>
-                <DropdownToggle caret color="light" />
-                <DropdownMenu>
-                <DropdownItem>Another Action</DropdownItem>
-                </DropdownMenu>
-                </ButtonDropdown>
+                <input type="file" name="file" id="file" className={style.inputfile} />
+                <label for="file">CHOOSE FILES</label>
                 <br/>       
                 <br/>     
                 <p className={style.textarea}>or drop PDFs here</p>

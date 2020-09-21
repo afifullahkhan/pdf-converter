@@ -10,6 +10,7 @@ const footer=()=>{
     return(
         <div className={style.main}>
               <Container >
+                  <br/>
             <Row className={style.appdown}>
             <Col sm={12} md={6}>
                 <p className={style.link}>
@@ -39,8 +40,8 @@ const footer=()=>{
             
             </Row>
             </Container>
-            <div className={style.divider}></div>
-            <Row className={style.appdown}>
+    <hr/>
+                <Row className={style.appdown}>
                 <Col sm={12} md={8}>
                 </Col>
                 <Col sm={6} md={2}>
@@ -50,8 +51,7 @@ const footer=()=>{
                     <img src={foot2}/>
                 </Col>
             </Row>
-            <div style={{backgroundColor:"#F4F4F4"}}>
-            <Container>
+            <div   className="container-fluid" style={{backgroundColor:"#F4F4F4"}}>
             <Row className={style.appdown} >
                
 
@@ -70,7 +70,6 @@ const footer=()=>{
                 </Col>
                 
             </Row>
-            </Container>
             </div>
         </div>
     )
